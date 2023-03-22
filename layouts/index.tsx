@@ -7,7 +7,7 @@ interface Children {
 
 export default function Layout({ children }: Children) {
 	return (
-		<div className='bg-red-400 min-h-screen'>
+		<div className='bg-gray-400 min-h-screen'>
 			<div className='flex flex-1'>
 				<Sidebar />
 				<div className='block w-full'>

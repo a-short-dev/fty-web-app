@@ -26,7 +26,7 @@ export default function Home() {
 					</h1>
 					<form
 						onSubmit={handleSubmit}
-						className='mt-5 flex p-2.5 flex-col gap-10'>
+						className='mt-5 flex md:p-2.5 p-0 flex-col gap-10'>
 						<div className='flex flex-1 flex-col space-y-3'>
 							<label
 								htmlFor='email'
@@ -36,7 +36,7 @@ export default function Home() {
 							<input
 								type='email'
 								placeholder='Enter Email'
-								className='rounded-md h-12 bg-gray-400 flex-grow  px-5 focus:outline-pink-400 focus:border-pink-200'
+								className='rounded-md h-12 bg-gray-400 flex-grow  px-5 focus:outline-pink-400 focus:border-pink-200 placeholder:text-black'
 							/>
 						</div>
 
@@ -49,7 +49,7 @@ export default function Home() {
 							<input
 								type='password'
 								placeholder='Enter password'
-								className='rounded-md h-12 bg-gray-400 flex-grow  px-5 focus:outline-pink-400 focus:border-pink-200'
+								className='rounded-md h-12 bg-gray-400 flex-grow  px-5 focus:outline-pink-400 focus:border-pink-200 placeholder:text-black'
 							/>
 							<span className='self-end pt-1'>
 								<Link
