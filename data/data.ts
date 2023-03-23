@@ -1,4 +1,4 @@
-import { Transaction } from './Transation';
+import { Transaction } from './Transaction';
 
 export const data: Transaction[] = [
 	{
